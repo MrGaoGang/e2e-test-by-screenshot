@@ -1,0 +1,24 @@
+{
+  "name": "e2e-test-by-screenshot",
+  "version": "1.0.0",
+  "description": "通过截图的方式进行端对端测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGaoGang/e2e-test-by-screenshot.git"
+  },
+  "keywords": [],
+  "author": "mrgaogang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrGaoGang/e2e-test-by-screenshot/issues"
+  },
+  "homepage": "https://github.com/MrGaoGang/e2e-test-by-screenshot#readme",
+  "dependencies": {
+    "pixelmatch": "^5.2.1",
+    "puppeteer": "^10.0.0"
+  }
+}
