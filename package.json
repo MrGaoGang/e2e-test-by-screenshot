@@ -2,9 +2,10 @@
   "name": "e2e-test-by-screenshot",
   "version": "1.0.0",
   "description": "通过截图的方式进行端对端测试",
-  "main": "index.js",
+  "main": "./dist/browser.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "browser": "npx webpack",
+    "build":"npm run browser"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,14 @@
   },
   "homepage": "https://github.com/MrGaoGang/e2e-test-by-screenshot#readme",
   "dependencies": {
+    "loader-utils": "^2.0.0",
     "pixelmatch": "^5.2.1",
-    "puppeteer": "^10.0.0"
+    "puppeteer": "^10.0.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.14.5",
+    "ts-loader": "^8.2.0",
+    "typescript": "^4.3.2"
   }
 }
